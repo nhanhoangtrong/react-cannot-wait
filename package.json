@@ -12,7 +12,9 @@
   "scripts": {
     "dev": "nodemon --exec \"styleguidist server\" --watch styleguide.config.js",
     "build": "styleguidist build",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -25,6 +27,7 @@
   ],
   "devDependencies": {
     "babel-loader": "^8.0.4",
+    "gh-pages": "^2.0.1",
     "nodemon": "^1.18.5",
     "react-styleguidist": "^8.0.2",
     "url-loader": "^1.1.2"

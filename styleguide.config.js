@@ -38,4 +38,5 @@ module.exports = {
     ],
     exampleMode: 'expand',
     pagePerSection: true,
+    styleguideDir: 'build',
 };
