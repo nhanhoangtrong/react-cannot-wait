@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
     title: 'Cannot Wait',
-    serverPort: 3000,
+    serverPort: 3001,
     theme: {
         baseBackground: '#fdfdfc',
         link: '#274e75',
@@ -24,7 +24,7 @@ module.exports = {
             content: 'src/pages/React163ContextAPI.md',
         },
         {
-            name: 'React 16.6: React.contextType',
+            name: 'React 16.6: Component contextType',
             content: 'src/pages/React166contextType.md',
         },
         {
@@ -34,6 +34,14 @@ module.exports = {
         {
             name: 'React 16.6: React.memo',
             content: 'src/pages/React166memo.md',
+        },
+        {
+            name: 'React 16.7(beta): React.useState',
+            content: 'src/pages/React167useState.md',
+        },
+        {
+            name: 'React 16.7(beta): React.useEffect',
+            content: 'src/pages/React167useEffect.md',
         },
     ],
     exampleMode: 'expand',
