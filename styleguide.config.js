@@ -43,6 +43,10 @@ module.exports = {
             name: 'React 16.7(beta): React.useEffect',
             content: 'src/pages/React167useEffect.md',
         },
+        {
+            name: 'React 16.7(beta): React.useContext',
+            content: 'src/pages/React167useContext.md',
+        },
     ],
     exampleMode: 'expand',
     pagePerSection: true,
