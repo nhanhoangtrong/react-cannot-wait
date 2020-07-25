@@ -1,9 +1,9 @@
-import React, { Suspense } from 'react';
-import dracula from 'react-syntax-highlighter/dist/styles/hljs/dracula';
+import React, { Suspense } from "react";
+import dracula from "react-syntax-highlighter/styles/hljs/dracula";
 
 const codeString = `
 import React, { Suspense } from 'react';
-import { docco } from 'react-syntax-highlighter/dist/styles/hljs';
+import { docco } from 'react-syntax-highlighter/styles/hljs';
 
 const codeString = \`
 function logger() {
@@ -30,18 +30,20 @@ const Wrapper = ({}) => {
 export default Wrapper;
 `;
 
-const ReactSyntaxHighlighter = React.lazy(() => import('react-syntax-highlighter'));
+const ReactSyntaxHighlighter = React.lazy(() =>
+  import("react-syntax-highlighter")
+);
 
 const Wrapper = () => {
-    return (
-        <div>
-            <Suspense fallback={<div>Loading...</div>}>
-                <ReactSyntaxHighlighter language="javascriptreact" style={dracula}>
-                    {codeString}
-                </ReactSyntaxHighlighter>
-            </Suspense>
-        </div>
-    );
+  return (
+    <div>
+      <Suspense fallback={<div>Loading...</div>}>
+        <ReactSyntaxHighlighter language="javascriptreact" style={dracula}>
+          {codeString}
+        </ReactSyntaxHighlighter>
+      </Suspense>
+    </div>
+  );
 };
 
 export default Wrapper;
