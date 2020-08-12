@@ -30,6 +30,6 @@
     "gh-pages": "^2.0.1",
     "nodemon": "^2.0.4",
     "react-styleguidist": "^8.0.2",
-    "url-loader": "^1.1.2"
+    "url-loader": "^4.1.0"
   }
 }
