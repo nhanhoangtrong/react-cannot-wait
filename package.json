@@ -4,8 +4,8 @@
   "private": true,
   "dependencies": {
     "classnames": "^2.2.6",
-    "react": "^16.7.0-alpha.0",
-    "react-dom": "^16.7.0-alpha.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "react-syntax-highlighter": "^13.0.0",
     "styled-components": "^5.1.1"
