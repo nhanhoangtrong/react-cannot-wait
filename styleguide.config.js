@@ -50,6 +50,10 @@ module.exports = {
       name: "React 16.8: React.useContext",
       content: "src/pages/React167useContext.md",
     },
+    {
+      name: "React 16.10: React.createRoot for ConcurrentMode",
+      content: "src/pages/React1610ConcurrentMode.md",
+    },
   ],
   exampleMode: "expand",
   pagePerSection: true,
