@@ -10003,10 +10003,10 @@ recast@~0.18.5:
     private "^0.1.8"
     source-map "~0.6.1"
 
-recoil@^0.0.10:
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/recoil/-/recoil-0.0.10.tgz#679ab22306f559f8a63c46fd5ff5241539f9248f"
-  integrity sha512-+9gRqehw3yKETmoZbhSnWu4GO10HDb5xYf1CjLF1oXGK2uT6GX5Lu9mfTXwjxV/jXxEKx8MIRUUbgPxvbJ8SEw==
+recoil@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/recoil/-/recoil-0.1.1.tgz#9490eb4c192e022731df164bbe564a857c87ff81"
+  integrity sha512-3tBDWb/21DS1XA3mHRwA0cAfiyBhWN0PSxKxEWmZzh4bX0XQI/NGcq5fU35Wp6uMlJnRZ3O6bpTTb+48nVrXrA==
 
 recursive-readdir@2.2.2:
   version "2.2.2"
