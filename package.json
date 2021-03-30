@@ -9,7 +9,7 @@
     "react-scripts": "3.4.1",
     "react-syntax-highlighter": "^13.0.0",
     "recoil": "^0.0.10",
-    "styled-components": "^5.1.1"
+    "styled-components": "^5.2.2"
   },
   "scripts": {
     "dev": "nodemon --exec \"styleguidist server\" --watch styleguide.config.js",
